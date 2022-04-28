@@ -1,0 +1,11 @@
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\bin\Debug\Aula30.exe.config
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\bin\Debug\Aula30.exe
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\bin\Debug\Aula30.pdb
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.csproj.AssemblyReference.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.csproj.SuggestedBindingRedirects.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.Form1.resources
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.Properties.Resources.resources
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.csproj.GenerateResource.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.csproj.CoreCompileInputs.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.exe
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula30\obj\Debug\Aula30.pdb
