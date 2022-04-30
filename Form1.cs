@@ -36,13 +36,13 @@ namespace Aula30
         {
             
             double total = double.Parse(label3.Text);
-            for (int i = 0; i < lstProduto.Items.Count; i++)
+            for (int i = 0; i < lstPreco.Items.Count; i++)
             {
                 if (lstProduto.Items[i].ToString() == lstProduto.Text)
                 {
-                    lstProduto.Items.RemoveAt(i);
-                    lstPreco.Items.RemoveAt(i);
                     total -= double.Parse(lstPreco.Items[i].ToString());
+                    lstPreco.Items.RemoveAt(i);
+                    lstProduto.Items.RemoveAt(i);
                     label3.Text = total.ToString();
                 }
                 

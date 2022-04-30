@@ -37,6 +37,8 @@
             this.lstPreco = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnRemover = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -44,9 +46,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(16, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Produto";
+            this.label1.Text = "Produto: ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtProduto
@@ -59,25 +61,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(212, 26);
+            this.label2.Location = new System.Drawing.Point(16, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Preço";
+            this.label2.Text = "Preço: ";
             this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtPreco
             // 
-            this.txtPreco.Location = new System.Drawing.Point(253, 23);
+            this.txtPreco.Location = new System.Drawing.Point(66, 49);
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(100, 20);
             this.txtPreco.TabIndex = 1;
             // 
             // btnLancar
             // 
-            this.btnLancar.Location = new System.Drawing.Point(98, 59);
+            this.btnLancar.Location = new System.Drawing.Point(179, 26);
             this.btnLancar.Name = "btnLancar";
-            this.btnLancar.Size = new System.Drawing.Size(75, 23);
+            this.btnLancar.Size = new System.Drawing.Size(86, 37);
             this.btnLancar.TabIndex = 2;
             this.btnLancar.Text = "Lançar";
             this.btnLancar.UseVisualStyleBackColor = true;
@@ -102,7 +104,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(393, 192);
+            this.label3.Location = new System.Drawing.Point(382, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 5;
@@ -110,19 +112,39 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(179, 59);
+            this.btnRemover.Location = new System.Drawing.Point(129, 326);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(75, 23);
+            this.btnRemover.Size = new System.Drawing.Size(85, 32);
             this.btnRemover.TabIndex = 6;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
             this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(333, 190);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "VALOR:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(90, 300);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(175, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Selecione um produto para remover";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 356);
+            this.ClientSize = new System.Drawing.Size(437, 388);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lstPreco);
@@ -150,6 +172,8 @@
         private System.Windows.Forms.ListBox lstPreco;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnRemover;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
